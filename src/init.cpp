@@ -1,7 +1,7 @@
 #include <dragon/thunder/dgThunder.hpp>
 
-DGAPI void Dragon::Thunder::init() {
-	
+DGAPI DgBool32 Dragon::Thunder::init() {
+	return DG_TRUE;
 }
 
 DGAPI void Dragon::Thunder::terminate() {
